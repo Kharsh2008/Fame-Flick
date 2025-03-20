@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FameFlick</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>FameFlick</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#television">Television</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to FameFlick</h2>
+        <p>Your go-to source for the latest entertainment news.</p>
+    </section>
+
+    <section id="movies">
+        <h2>Top Movie News</h2>
+        <div class="news-card"> 
+            <h3>Breaking: New Blockbuster Announced</h3>
+            <p>Get the latest insights into upcoming releases.</p>
+        </div>
+        <div class="news-card">
+            <h3>Oscar Buzz</h3>
+            <p>Check out the hottest contenders this season.</p>
+        </div>
+    </section>
+
+    <section id="television">
+        <h2>Television Highlights</h2>
+        <div class="news-card">
+            <h3>New Series Premiere</h3>
+            <p>Find out which shows are making waves.</p>
+        </div>
+        <div class="news-card">
+            <h3>Fan-Favorite Returns</h3>
+            <p>Your beloved TV series is back with a new season.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About FameFlick</h2>
+        <p>FameFlick is dedicated to bringing you the latest in movies, TV, and celebrity news.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 FameFlick. All rights reserved.</p>
+    </footer>
+</body>
+</html>
